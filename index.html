@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>RetroPod Classic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Apple-like font usually Chicago or Podium, using Inter for clean modern equivalent fallback -->
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #f0f0f0;
+        overflow: hidden; /* Prevent body scroll on mobile when using wheel */
+        touch-action: none;
+      }
+      /* Custom Scrollbar for the "LCD" look */
+      .lcd-scrollbar::-webkit-scrollbar {
+        width: 0px;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
