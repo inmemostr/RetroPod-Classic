@@ -1,4 +1,4 @@
-[img](https://github.com/inmemostr/RetroPod-Classic/edit/main/Snipaste_2025-11-20_18-26-36.png)
+![image](https://github.com/inmemostr/RetroPod-Classic/edit/main/Snipaste_2025-11-20_18-26-36.png)
 
 # Run and deploy your AI Studio app
 
